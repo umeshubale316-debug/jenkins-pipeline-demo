@@ -16,7 +16,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Build Stage Started'
+                echo 'Buil Stage Started'
                 sh '''
                 echo "Building Application"
                 sleep 10
