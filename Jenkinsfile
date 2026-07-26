@@ -16,7 +16,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                ec 'Build Stage Started'
+                echo 'Build Stage Started'
                 sh '''
                 echo "Building Application"
                 sleep 10
